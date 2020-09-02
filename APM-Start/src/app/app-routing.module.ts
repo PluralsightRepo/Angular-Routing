@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(PrimaryRoutes, { useHash: true }),
+    RouterModule.forRoot(PrimaryRoutes, { useHash: true} ),
   ],
   exports: [RouterModule]
 })
